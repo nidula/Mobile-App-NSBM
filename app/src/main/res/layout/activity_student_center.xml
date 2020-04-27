@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentCenter"
+    android:background="@drawable/nidula">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:background="#008080"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Student Centre"
+                android:textColor="#fff"
+                android:textSize="35dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                app:srcCompat="@drawable/studentce" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="NSBM student center building consist of a health center, a multiple hall, a career guidance office, and audio visual room, bookshop, counselors’' rooms, club offices and an informal study area allocated for student activities."
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="serif"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/st2" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

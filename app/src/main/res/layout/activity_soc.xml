@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SOC"
+    android:background="@drawable/nidula">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#008080"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="School of Computing"
+                android:textColor="#fff"
+                android:textSize="35dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/d6" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Faculty of Computing is one of Faculty in University.School of Computing(SOC) is another of this Faculty.This is the second larger faculty in university.It has unique programme office. There are lots of lecture halls, computer labs and study rooms in here.Further more,it has a better education environment for every students."
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

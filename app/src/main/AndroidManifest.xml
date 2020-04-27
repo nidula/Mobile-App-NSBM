@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nsbmgreenuniversity">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View_lecture"></activity>
+        <activity android:name=".View_student" />
+        <activity android:name=".Update_lecture" />
+        <activity android:name=".Update_student" />
+        <activity android:name=".Ssignup" />
+        <activity android:name=".Lsignup" />
+        <activity android:name=".View_Event" />
+        <activity android:name=".Update_Event" />
+        <activity android:name=".Admin_main" />
+        <activity android:name=".Admin_event" />
+        <activity android:name=".Admin_login" />
+        <activity android:name=".Batch_namesoc181" />
+        <activity android:name=".Bus_shedule" />
+        <activity android:name=".Mail_send" />
+        <activity android:name=".SOC_map" />
+        <activity android:name=".About_us" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".google_MapsActivity"
+            android:label="@string/title_activity_google__maps" />
+        <activity android:name=".The_edge" />
+        <activity android:name=".bookshop" />
+        <activity android:name=".HostelCanteen" />
+        <activity android:name=".HostelComplex" />
+        <activity android:name=".StudentCenter" />
+        <activity android:name=".RecreationCenter" />
+        <activity android:name=".BOC" />
+        <activity android:name=".MiniMart" />
+        <activity android:name=".AudiCanteen" />
+        <activity android:name=".Library" />
+        <activity android:name=".Auditorium" />
+        <activity android:name=".Marketing" />
+        <activity android:name=".SOE" />
+        <activity android:name=".SOB" />
+        <activity android:name=".SOC" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Soe_batch" />
+        <activity android:name=".Sob_batch" />
+        <activity android:name=".Places_uni" />
+        <activity android:name=".Soc_batch" />
+        <activity android:name=".Time_table" />
+        <activity android:name=".Map" />
+        <activity android:name=".test3" />
+        <activity android:name=".Main_page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

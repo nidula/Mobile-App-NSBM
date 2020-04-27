@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_student"
+    android:background="@drawable/nidula">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#008080"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Update Student"
+                android:layout_marginBottom="20dp"
+                android:textColor="#fff"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_margin="5dp"
+                android:hint="Enter Student Id"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+            <Button
+                android:id="@+id/button80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#02A32D"
+                android:text="Get Student Details"
+                android:enabled="false"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"  />
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_margin="5dp"
+                android:hint="First Name"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_margin="5dp"
+                android:hint="Last Name"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_margin="5dp"
+                android:hint="Degree"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:layout_margin="5dp"
+                android:hint="Address"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"/>
+
+            <Button
+                android:id="@+id/button81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#02A32D"
+                android:text="Update Student"
+                android:enabled="false"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"  />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

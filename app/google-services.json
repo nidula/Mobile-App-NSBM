@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "690670234331",
+    "firebase_url": "https://nsbm-4a67c.firebaseio.com",
+    "project_id": "nsbm-4a67c",
+    "storage_bucket": "nsbm-4a67c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690670234331:android:43c6ed30860e7c41347afe",
+        "android_client_info": {
+          "package_name": "com.example.nsbmgreenuniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690670234331-ooludac9ca6541ij8mfal72gm6t72jfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVi2dk5e8xZXLbYpXPxNa0h78qK_TF4TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690670234331-ooludac9ca6541ij8mfal72gm6t72jfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

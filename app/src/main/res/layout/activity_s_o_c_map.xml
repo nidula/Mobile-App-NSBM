@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nidula"
+    tools:context=".SOC_map">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#008080"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="SOC Map"
+                android:textColor="#fff"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                app:srcCompat="@drawable/socg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Ground Floor"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:fontFamily="serif"/>
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                app:srcCompat="@drawable/soc1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="First Floor"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                app:srcCompat="@drawable/soc2" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Second Floor"
+                android:textColor="#000"
+                android:fontFamily="serif"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                app:srcCompat="@drawable/soc3"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Third Floor"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:textColor="#000"
+                android:gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
